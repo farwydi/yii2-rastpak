@@ -1,0 +1,22 @@
+{
+    "name": "root/b3w-dating-v3",
+    "type": "project",
+    "require": {
+        "yiisoft/yii2": "2.0.15.1"
+    },
+    "license": "B3W",
+    "minimum-stability": "dev",
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0",
+        "yiisoft/yii2-debug": "^2.0"
+    }
+}
